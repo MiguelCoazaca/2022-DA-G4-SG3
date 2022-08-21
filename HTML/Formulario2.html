@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2.0</title>
+    <style>
+        body {
+            background-color: tan;
+        }
+        form {
+            background-color: rgb(249, 249, 249);
+            /* Centrar el formulario en la página */ 
+            margin: 0 auto;
+            width: 400px;
+            /* Esquema del formulario */
+            padding: 1em;
+            border: 2px solid rgb(0, 0, 0); 
+            border-radius: 1.2em;
+        }
+        ul{
+            list-style: none; 
+            padding: 0; 
+            margin: 0;
+        }
+        formli+li{ 
+            margin-top: 1em;
+        }
+        label {
+            /* Tamaño y alineación uniforme */ 
+            display: inline-block;
+            width: 75px;
+            text-align: left;
+        }
+        input, textarea, select {
+            /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+            Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+            font: 1em sans-serif;
+            /* Tamaño uniforme del campo de texto */ 
+            width: 350px;
+            box-sizing: border-box;
+            /* Hacer coincidir los bordes del campo del formulario */
+            border: 1px solid #999;
+        }
+        input:focus, 
+        textarea:focus {
+            /* Destacado adicional para elementos que tienen el cursor */
+            border-color: #000; 
+        }
+        textarea {
+            /* Alinear los campos de texto multilínea con sus etiquetas */ 
+            vertical-align: top;
+            /* Proporcionar espacio para escribir texto */
+            height: 5em; 
+        }
+        .button {
+            /* Alinear los botones con los campos de texto */
+            padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+        }
+        button {
+            /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+            entre las etiquetas y sus campos de texto */
+            margin-left: .5em; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1><center><b><i>Formulario Web</i></center></b></h1>
+    <center><li><i>Nadia Chavez</i></li></center>
+    <center><li><i>Miguel Coazaca</i></li></center>
+    <center><li><i>Alexandra Zuñiga</i></li></center>
+    <br>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombres:</label>
+                <input type="text" name="user_name" id="name" >
+            </li>
+            <li>
+                <label for="lastname">Apellidos:</label>
+                <input type="text" name="user_lastname" id="lastname" >
+            </li>
+            <li>
+                <label for="age">Edad: </label>
+                <input type="number" id="user_age" name="age" >
+            </li>
+
+            <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" name="user_mail" id="mail" value="@">
+            </li>
+            <li>
+                <label> Sexo: </label>
+                <br>
+                <label for="hombre">Masculino</label>
+                <input type="radio" name="user_sexo" id="hombre">
+                <label for="mujer">Femenino</label>
+                <input type="radio" name="user_sexo" id="mujer">
+            </li>
+
+            <li>
+                <label >Pais:</label> <br>
+                <select name="pais">
+                    <option>Argentina</option>
+                    <option>Bolivia</option>
+                    <option>Brasil</option>
+                    <option>Colombia</option>
+                    <option>Costa Rica</option>
+                    <option>Cuba</option>
+                    <option>Chile</option>
+                    <option>Dominica</option>
+                    <option>Ecuador</option>
+                    <option>El Salvador</option>
+                    <option>Guatemala</option>
+                    <option>Honduras</option>
+                    <option>Mexico</option>
+                    <option>Panamá</option>
+                    <option>Paraguay</option>
+                    <option>Perú</option>
+                    <option>Uruguay</option>
+                    <option>Venezuela</option>
+                </select>
+            </li>
+
+            <li>
+                <label for="fecha">Fecha: </label>
+                <input type="date" name="user_fecha" id="fecha"><br/>
+            </li>
+
+            <li>
+                <label for="msg">Mensaje:</label>
+                <textarea name="user_message" id="msg">....</textarea>
+            </li>
+            
+            <li class="button">
+                <br>
+                <button type="submit">Guardar información</button>
+                <button type="reset">Restablecer</button>
+            </li>
+            
+        </ul>
+        
+    </form>
+</body>
+</html> 
