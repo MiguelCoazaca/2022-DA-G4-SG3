@@ -1,0 +1,93 @@
+@import url("https://fonts.google.com/specimen/Montserrat?query=montserrat");
+h1{
+    color: darkgreen;
+    font-family: inherit;
+    font-size: xx-large;
+    text-align: center;
+}
+h3{
+    color: #66CDAA;
+    font-family: inherit;
+    font-size: xx-large;
+    text-align: center;
+}
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFF0;
+}
+#header{
+    margin: auto;
+    width: max-content;
+    font-family: inherit;
+}
+
+ul, ol{
+    list-style: none;
+}
+.navi li a{
+    background-color: #FFA500 ;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navi li a:hover{
+    background-color: #B0C4DE;
+}
+
+.navi > li{
+    float: left;
+}
+
+.navi li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+
+}
+
+.navi li:hover > ul{
+    display: block;
+}
+
+.navi li ul li
+{
+    position: relative;
+}
+
+.navi li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+body{
+    font-family: inherit;
+}
+.box {
+    margin: 1em 1em 2.5em;
+    border-width: 2px;
+    border-style: solid;
+}
+.box2 {
+    margin: 1em 1em 2.5em;
+    border-width: 2px;
+    border-style: solid;
+}
+div#title {
+    display: block;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+div#content{
+    margin: 0;
+    padding: 2;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./combinadosymultiples.css">.
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);            background-size: contain;
+            font-family: inherit;
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+        .form{
+            background-color: #fff;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 1em;
+            padding: 3.5em 1.5em;
+            margin: auto;
+        }
+        .formu{
+            width: 100%;
+            display: grid;
+            gap: 1em;
+            grid-auto-columns: 100%;
+        }
+        .tittle{
+            text-align: center;
+            font-size: 1.9rem;
+            margin-bottom: .4em;
+        }
+        .form_input{
+            font-family: inherit;
+            font-size: 1rem;
+            padding: .8em 16px;
+            outline: none;
+            border: none;
+            border: 1px solid #bbb0b0;
+            border-radius: 0.2em;
+        }
+        .form_input--message{
+            resize: none;
+            padding: 1.8em 1em;
+            margin-bottom: .5em;
+        }
+        .form_cta{
+            font-family: inherit;
+            background-color: #089fe0;
+            color: #fff;
+            border: none;
+            font-weight: 300;
+            padding: .7em 0;
+            border-radius: .2em;
+            cursor: pointer;
+            font-weight: 400;
+        }
+        @media(max-width:450px)
+        {
+            .form{
+                padding: 3.5em 1em
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="form">
+        <div class="formu">
+            <p><h2>Nadia Chavez</h2></p>
+            <h3 class="tittle">Contáctame</h3>
+            <p>email: nadia.chavez@ucsm.edu.pe</p>
+            <input type="text" class="form_input" placeholder="Nombre: ">
+            <input type="email" class="form_input" placeholder="Email: ">
+            <textarea class="form_input form_input--message" placeholder="Mensaje: "></textarea>
+            <input type="submit" value="Enviar" class="form_cta">
+        </div>
+
+    </form>
+</body>
+</html>

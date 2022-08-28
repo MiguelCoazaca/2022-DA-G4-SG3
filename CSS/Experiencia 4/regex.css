@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);         
+    background-size: contain;
+    font-family: inherit;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.form{
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+}
+.formu{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.information{
+    gap: 1em;
+    grid-auto-columns: 100%;
+    margin: 1em 1em .5em;
+    border-width: 2px;
+    border-style: solid;
+}
+.tittle{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 16px;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+.form_input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+.form_cta{
+    font-family: inherit;
+    background-color: #089fe0;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+@media(max-width:450px)
+{
+    .form{
+        padding: 3.5em 1em
+    }
+}
+p[class*= 'contenido']
+{
+    color: #C71585;
+}
+p[class*= 'contacto']
+{
+    color: #8B4513;
+}
+a[class^= 'link']
+{
+    color: red;
+    
+}
+p[class^= 'personal']
+{
+    background-color: #DA70D6;
+}
+p[class^= 'carrera']
+{
+    background-color: #E9967A;
+}
