@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>en línea</title>
+    <style>
+        form {
+            background-color:rgb(226, 223, 223);
+            margin: 0 auto;
+            width: 400px;
+            padding: 1.5em;
+            border: 2px solid rgb(0, 0, 0); 
+            border-radius: 1.4em;
+        }
+        formli+li{ 
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blueviolet; text-align:center;font-size:400%;">En linea</h1>
+    <h3 style="font-size: larger;text-align:center;font-family:fantasy;"><i>Nadia Chavez</i></h3>
+    <h3 style="font-size: larger;text-align:center;font-family:fantasy;"><i>Miguel Coazaca</i></h3>
+    <h3 style="font-size: larger;text-align:center;font-family:fantasy;"><i>Alexandra Zuñiga</i></h3>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label style="color:blue;font-family:fantasy;" for="name">Nombres:</label>
+                <input type="text" name="user_name" id="name" >
+            </li>
+            <li>
+                <label style="color:blue;font-family:fantasy;" for="lastname">Apellidos:</label>
+                <input type="text" name="user_lastname" id="lastname" >
+            </li>
+            <li>
+                <label style="color:blue;font-family:fantasy;" for="age">Edad: </label>
+                <input type="number" id="user_age" name="age" >
+            </li>
+
+            <li>
+                <label style="color:blue;font-family:fantasy;" for="mail">Correo electrónico:</label>
+                <input type="email" name="user_mail" id="mail" value="@">
+            </li>
+            <li>
+                <label style="color:blue;font-family:fantasy;"> Sexo: </label>
+                <br>
+                <label style="font-family:fantasy;"for="hombre">Masculino</label>
+                <input type="radio" name="user_sexo" id="hombre">
+                <label style="font-family:fantasy;"for="mujer">Femenino</label>
+                <input type="radio" name="user_sexo" id="mujer">
+            </li>
+            <li>
+                <label style="color:blue;font-family:fantasy;" for="fecha">Fecha: </label>
+                <input type="date" name="user_fecha" id="fecha"><br/>
+            </li>
+
+            <li>
+                <label style="color:blue;font-family:fantasy;" for="msg">Mensaje:</label>
+                <textarea name="user_message" id="msg">....</textarea>
+            </li>
+            <br>
+            <button style="font-family:fantasy;" type="submit">Guardar información</button>
+            <button style="font-family:fantasy;" type="reset">Restablecer</button>
+            
+        </ul>
+        
+    </form>
+</body>
+</html>
