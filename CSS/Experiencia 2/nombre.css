@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(166, 220, 244);
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-size:larger 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight:bold;
+}
+h2 {
+    color: black;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:yellow;
+}
+h3 {
+    color: blue;
+    font-size:small;
+    font-family:cursive;
+    text-align:left;
+}
