@@ -1,0 +1,24 @@
+h1{
+    color: darkorange;
+}
+h2{
+    color:deeppink;
+}
+.apellidoN{
+    color:brown;
+}
+h3{
+    color:crimson;
+}
+.apellidoM{
+    color: chocolate;
+}
+h4{
+    color:darkorchid;
+}
+.apellidoA{
+    color:darkcyan;
+}
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}

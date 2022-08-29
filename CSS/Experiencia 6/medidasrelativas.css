@@ -1,0 +1,47 @@
+*{
+    margin: 0vh;
+    padding:0vh;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #9890e3 0%, #b1f4cf 100%);}
+.login{
+    width: 25rem;
+    height: 21.25rem;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    background-blend-mode: normal,color-burn;
+    margin: auto;
+    margin-top: 11.25rem;
+    box-shadow: 0.438em 0.813em 2.313em;
+    padding: 3.65vh 4.6875vw;
+    border-top:  0.625vw solid rgb(245, 202, 94);
+    color:rgb(11, 124, 105);
+}
+
+.login h5{
+    margin: 0;
+    text-align: center;
+    height: 6.25vw;
+    margin-bottom: 7.35lh;
+    border-bottom: 2.45lh solid;
+    font-size: 4.90lh;
+}
+.controls{
+    width: 40ch;
+    border: 0.3ch solid goldenrod;
+    margin-bottom: 5ch;
+    padding: 1.5vmin 2vmin;
+    background-color:blanchedalmond;
+    font-size: 2 vmin;
+    font-weight: bold;
+}
+.button{
+    width: 8vmax;
+    height: 3vmax;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
