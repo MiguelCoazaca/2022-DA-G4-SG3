@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoelementos</title>
+    <link rel="stylesheet" href="./pseudoelementos.css">
+</head>
+<style>
+    p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+h1::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+h2.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+
+footer::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+footer::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+h1::before {
+  content: url(smiley.gif);
+}
+
+::marker { 
+  color: red;
+  font-size: 23px;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+  </style>
+<body>
+    <p>este pseudo elemento se usa para resaltar solo la primera linea de un parrafo texot u oracion lo suficientemente larga para tener varias lineas</p>
+    <h1>este segundo solo resalta la primera letra</h1>
+    <h2>la primera letra</h2>
+    <footer>se puede combinarlos anteriores peudoelemntos</footer>
+    <h1>This is a heading</h1>
+
+    <ul>
+        <li>Cafe</li>
+        <li>Te</li>
+        <li>leche</li>
+      </ul>
+      
+      <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ol>
+
+
+      <p>Este es un parrafo.</p>
+<div>El cual resalta por donde pase el cursor.</div>
+</body>
+</html>
