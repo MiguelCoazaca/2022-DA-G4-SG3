@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(166, 220, 244);
+}
+form {
+    background-color: rgb(166, 220, 244);
+    margin: 0 auto;
+    width: 380px;
+    padding: 1.5em;
+    border: 3px solid rgb(0, 0, 0); 
+    border-radius: 1.2em;
+}
+ul{
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+formli+li{ 
+    margin-top: 1em;
+}
+label {
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:inline-block;
+    width: 50px;
+    text-align: left;
+    padding: 6px;
+    font-weight:bold;
+}
+input, textarea, select {
+    font: .7em sans-serif;
+    width: 320px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+}
+input:focus, textarea:focus {
+    border-color: #000; 
+}
+textarea {
+    vertical-align: top;
+    height: 5em; 
+}
+.button {
+    padding-right: 90px; 
+}
+button {
+    color: red;
+    margin-left: .5em; 
+    border-color: #000; 
+    font-family:monospace;
+    font-weight:bold;
+}
+h1,h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: blue;
+}

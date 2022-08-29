@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Vinculado</title>
+</head>
+<body>
+    <h1>Css Vinculado</h1>
+    <h2>Únete</h2>
+    <h2>Completa tus datos y accede a nuestro servicio</h2>
+    <br>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" name="user_name" id="name" >
+            </li>
+            <li>
+                <label for="lastname">Apellido Paterno:</label>
+                <input type="text" name="user_lastname" id="lastname" >
+            </li>
+            <li>
+                <label for="lastname">Apellido Materno:</label>
+                <input type="text" name="user_lastname" id="lastname" >
+            </li>
+            <li>
+                <label for="age">Edad: </label>
+                <input type="number" id="user_age" name="age" >
+            </li>
+
+            <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" name="user_mail" id="mail" value="@">
+            </li>
+            <li>
+                <label >Tipo de documento:</label> <br>
+                <select name="documento">
+                    <option>DNI</option>
+                    <option>Carnet de Extranjería</option>
+                    <option>Pasaporte</option>
+                    <option>RUT</option>
+                </select>
+            </li>
+            <li>
+                <label for="documen">Numero de documento:</label>
+                <input type="text" name="user_documen" id="documen" >
+            </li>
+
+            <li>
+                <label> Género: </label>
+                <br>
+                <label for="hombre">Masculino</label>
+                <input type="radio" name="user_sexo" id="hombre">
+                <label for="mujer">Femenino</label>
+                <input type="radio" name="user_sexo" id="mujer">
+            </li>
+            <li>
+                <label for="fecha">Fecha de Nacimiento: </label>
+                <input type="date" name="user_fecha" id="fecha"><br/>
+            </li>
+            
+            <li class="button">
+                <br>
+                <button type="submit">Unirme</button>
+            </li>            
+        </ul>
+        <link rel="stylesheet" href="./main.css">
+    </form>
+    <h2>Nadia Chavez</h2>
+</body>
+</html>
