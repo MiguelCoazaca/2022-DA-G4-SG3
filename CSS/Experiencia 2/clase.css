@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(166, 220, 244);
+}
+.animado{
+    color:pink;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:black;
+}
+.drama{
+    color: red;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:black;
+}
+.terror{
+    color: orange;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:black;
+}
+.ficcion{
+    color: white;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:black;
+}
