@@ -1,0 +1,147 @@
+
+h3{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#h1{
+    margin-left: 300px;
+    margin-right: 300px;
+    float:left;
+}
+.right{
+    float: right;
+    text-align: right;
+    width: -8px;
+    height: -10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boton{
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 1px;
+}
+#contenedor {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    border: 1px solid #c3c3c3c2;
+    align-content: center;
+    justify-content: stretch;
+    flex-direction: row;
+}
+.contenedor{
+    margin: auto;
+    height: 700px;
+    width: 900px;
+  display:grid;
+  grid-template:
+    'Botas Botas Botas Botas Jean Jean '
+    'Botas Botas Botas Botas Jean Jean'
+    'Botas Botas Botas Botas Jean Jean'
+    'Botas Botas Botas Botas Jean Jean'
+    'Botas Botas Botas Botas Chaleco Chaleco'
+    'Botas Botas Botas Botas Chaleco Chaleco'
+    'Botas Botas Botas Botas Chaleco Chaleco'
+    'Botas Botas Botas Botas Chaleco Chaleco'
+    'Short Short Rojo Rojo Rojo Rojo '
+    'Short Short Rojo Rojo Rojo Rojo'
+    'Short Short Rojo Rojo Rojo Rojo'
+    'Short Short Rojo Rojo Rojo Rojo'
+    'Correa Correa Rojo Rojo Rojo Rojo'
+    'Correa Correa Rojo Rojo Rojo Rojo'
+    'Correa Correa Rojo Rojo Rojo Rojo'
+    'Correa Correa Rojo Rojo Rojo Rojo'
+    'Camisa Camisa Camisa Camisa Impermeables Impermeables '
+    'Camisa Camisa Camisa Camisa Impermeables Impermeables'
+    'Camisa Camisa Camisa Camisa Impermeables Impermeables'
+    'Camisa Camisa Camisa Camisa Impermeables Impermeables'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    'Camisa Camisa Camisa Camisa Mochila Mochila'
+    ;
+  grid-gap: 7px;
+  background-color:white;
+  padding:5px;
+}
+#cont1 {
+    grid-area: Botas; 
+    display: flex;
+    background:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+    
+    
+}
+
+#cont2 {
+    grid-area: Jean; 
+    display: flex;
+    background:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+
+}
+#cont3 {
+    grid-area: Chaleco;
+    display: flex;
+    background:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+#cont4{
+    grid-area: Short; 
+    display: flex;
+    background-color: #ededef;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+#cont5{
+    grid-area: Rojo; 
+    display: flex;
+    background-color: #ededef;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#cont6 {
+    grid-area: Correa;
+    display: flex;
+    background-color:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+} 
+#cont7 {
+    grid-area: Camisa; 
+    display: flex;
+    background-color:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+} 
+#cont8 {
+    grid-area: Impermeables; 
+    display: flex;
+    background-color:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+
+} 
+#cont9 {
+    grid-area: Mochila; 
+    display: flex;
+    background-color:#ededef;
+    justify-content: space-evenly;
+    align-items:center;
+   
+} 
+
+
