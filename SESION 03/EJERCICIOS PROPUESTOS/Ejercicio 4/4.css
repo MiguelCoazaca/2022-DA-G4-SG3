@@ -1,0 +1,65 @@
+.grid-container{
+    background-image: linear-gradient(315deg, #ce4a7d 0, #bc437b 12.5%, #a73c76 25%, #90356f 37.5%, #782d65 50%, #61255a 62.5%, #4c1e4f 75%, #3a1945 87.5%, #2b143c 100%);
+    display: grid;
+    grid-template-columns: 450px 450px 200px;
+    grid-template-rows: 300px, 500px;
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: row;
+}
+
+.grid-container > div{
+    background-color:aqua;
+    text-align: center;
+    padding: 60px;
+    font-size: 30px;
+}
+#cont1 {
+    background:#349989;
+    text-align: center;
+    border: black 3px solid;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 3;
+    border-radius: 20px;
+}
+
+#cont2 {
+    background:#4dacc2;
+    text-align: center;
+    border: black 3px solid;
+    grid-column-start: 2; 
+    grid-column-end: 4; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+    border-radius: 20px;
+}
+
+#cont3 {
+    background:#aa5a53;
+    text-align: center;
+    border: black 3px solid;
+    grid-column-start: 3; 
+    grid-column-end: 2; 
+    grid-row-start: 2; 
+    grid-row-end: 4;
+    border-radius: 20px;
+}
+#cont4{
+    background-color: #355d67;
+    border: black 3px solid;
+    border-radius: 20px;
+    
+}
+#cont5{
+    background-color: #be599d;
+    border: black 3px solid;
+    border-radius: 20px;
+}
+#cont6 {
+    border: black 3px solid;
+    background-color:#706563;
+    border-radius: 20px;
+} 
+
