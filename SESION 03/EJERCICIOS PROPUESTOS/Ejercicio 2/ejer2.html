@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejer 2</title>
+    <style>
+        .title {
+            background-color: black;
+            color: white;
+            text-align: center;
+            border: 20px solid black;
+}
+    .logos{
+        background-color: rgb(239, 239, 247); display:flex;
+        flex-direction: row;
+        justify-content: center;
+}
+    .logos div{
+             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 10px;
+            text-align: center;
+            background-color: white;
+            border: 3px solid rgb(223, 221, 221);
+            width: 400px;
+            height: 320px;
+ }
+        .logos p{
+            text-align: justify;
+            margin: auto 15px;
+}
+button{
+    margin: 5px;
+border: 3px solid rgb(224, 213, 213); color: white;
+background-color: rgb(212, 199, 199);
+}
+@media only screen and (max-width: 600px) {
+    .logos {
+    display:flex;
+    flex-direction:column;
+    }
+    .logos div{
+    width: 350px;
+    height: 300px;
+} }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+<div class="title">
+<p>NADIA - MIGUEL - ALEXANDRA</p>
+<p>BEAUTIFUL RESPONNSIVE WEB SITES</p> <h1>BUILT WITH W3.CSS</h1> <button
+onclick="location.href='https://www.w3schools.com/w3css/'"><b>LEARN W3.CSS</b></button> </div>
+        <div class="logos">
+<div>
+<h2>Responsive</h2>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAADeCAMAAAD4tEcNAAAAgVBMVEUAAAD+/v7///8XFxfHx8cJCQlKSkr6+voNDQ2JiYkFBQUYGBgUFBSfn58yMjJcXFzo6OjAwMDy8vKtra0/Pz9+fn6VlZV1dXUgICDu7u7V1dUhISFvb29QUFDa2tqysrKZmZlWVlYqKiqMjIxFRUUwMDDX19fExMSkpKRlZWViYmJvD3ZkAAAR4ElEQVR4nN1dC3ujLBNFiMUiba1t2tj7bbv99v//wA8QlJtKIuM+757NXppkM54MzMABB4RxIR6F/FP+1f+t/qQUY9w/IdA8/Hw+fX1whk5GteL/WmD84+vp8+eh6a/PXCAu9EOyaAv9tPwbYQfF+F80Rfnky8/VIcfVZSJp8Hj181LgOFrrBTTxnpHr7v4x21VlJinweL9bJImUaxWnAodfSnOe95ICkjlInzehewqLJJLttyj0nw4wfrjKcAUuPJKc12WGT716wAEBQVID6UZZFH7nxbuzDNYDOCQZZ7zK8rFnO0Vi5FJoTwrvTfbHl+cstkM4JGuO6kyf+/xiRxFsmmuh2qpmrlNG3y1p5n5oYyDJSc05yeNHiXM65A87hUz4cUeyGY5Ac8zXUA1IEGNpH1cj2Ge1PIGqIvkaqsE+RifCsfvKbDgCxssDq3M2VI1bO4/ozomccCvb8C632Sj4QfiQZR8SCOywmw1lfxz+2RN/BTAbouIlQUCd/gaPLLHmOAYjgQsYux5E6q/KGsKLEm8m3euhDOp/ME33E8isC8ZFZszeFUechzFnzJtvWcaPSygZkckR0NSdG3NswjeI5xg9LkDmfUJKSI7oZyp3XAvzgHY1SpETCavypw0H1zbHwozh8IsegYBE9AFlSURb0c0F0NRLPypVcXXIjXSYCuefyY7gAmTsEHCmHikeOZoIa80V4SxXItoQZHV6OFN/8JgfdVu9cS4FynJ5QN4YFY7kq9UfFcXOfR3MMjv4wQaOZKeTh4mr797rcCSDqQaYqXc3d1wHb4AjGXwwmKlrw5FKh0aGx5DRdSNTRHOkMsZGR+L/AMkLlTSQpEi3tbyhKaXwKO1xakL13yd5YTSrYnIxo/yvkzwUOq6GQXXaMhxr3xSrcsyBrjXHOT3cs0wqsNm7Z4qRMsda2RlWbbVJt1wJwE2/nDZSlZzlEHwaNZZbkHAskmVZV9kl0agpVlUHVub4Oi+UH5fk1MEy4XUFKlEMppjoE1WeCfuX7I/d4tu0YV5CNlQHnPEsTpToBMdUQVV+tVCSqA0mNbs6T0OVeBUcn5IME36QYtMG+ZLVvGacZGsxT4LjR9I7SY3gsoZnimQ19YHRfOYw4JzVbJPOKNzI6jKnaNegh5S3ERHkNqJImDCVVZd8QDfLb0IlsHZvoRJmDnlN3aC7BLtSnyAbhFS5LFmLbzSvqTu0HFZJJX7xUIcBQCV+iRFd3gWJJ7S4QaXS2n1qqLs8E3j+En/I30fh/Vn8Pnt+Pub/PCtTv2Yu6AwtpQ5eyY0JmuDyzIqpbQe0LdpgyRoGbUvb+fnhB1qIlqQUIfUI7f5bKtNdWzRtN+x8EhcR7uLKA9yIB5VC6jRJvrDgyJV2b71nwZO3kg1tlCcttBOXuJpiK0y1VCn+kxe25BYZaY7R7q/UJq6uKxpqXwuYJ4Up2vT/vFygMkPy4AfyWU8qjsLyC/UuBo5k05tcwfFI7f5Kr4K11I8NwRPZgg5d68dYc57xpORIC0x/73z8vg6eyoPfxWo/xjDtScGxldEur715ZPBjDJOevFI7Y3NyXNZdKYbw4zTJK/WlZvXj4rgDiuOU5XecneOiJ4HaKpoieQXAccmTYH4MLauNmiAckbcqwIij9sD50ScpJu9iXAvD0TNFpPQy/kgxHEe3o0hBlENxRKXtSSKV3vFHUI7W18s5r1nNwDiOpmRDrSt78AXZVtGwJaxvqNKtYBwHU6qhOv0TMObY9kmptXs4jhqVaKje5kxgPyqrwm510LIvLMeKcV65DRVt4kd2EG4sdaCD5cgeGSkD8RU25ihU4nsdbgyD5SiVyfAeNHiOXN4yNWQRSI6MKFPB8+AcRf+vLKUAkiPp5aUA4DFHGrW0e0iOtQzgkWUC4Jgjxqg1J9beBDiOtTIVW3mF9SOvxKO0t7OAcayltfhKCGx/lLsSuB62AucOaarSRrwJDyRHLkaOY9Pp5z8wHMUY1TZVbjbOEQ215PbmHflPGI4y2ti3g5ZbjVcPJXK3eUjLIBzZgSF3FdshCRlzavtGDW0ZqD/WfrCxSYLmjmD3BRjHiKmRJGjuiOyCgOIY7oIYSW4wJncAPn8cMZDcZo48YkOOA8l/2I8DyX/Zj4bkBlqHg2059iT/6baKepIOxzLv3p4YohwrOYEHguBkt1V5Uz6UKYMoR4JIlvsYoijtmCPLnIBvXRw42pyEFyHvVx/9yFjGejyTGDkaUrKhEtAvd+iPoqGK+d6GbXW4mUA0VNg71UeOGzRUFPbHspINFXaTtuZ4m7Nw1BxcjrysZSUg4C934Fht0FCRz7F6FA0VvASIiTnVNjulXY6MiLYDf7vE4Mctdkojl6NopTLggNs0+XGrO1JtjlIS3SIG6LZ6u4EpBSt3MNFKeebialEMbXUjDBwruUxAqi3q8fw1jgcpwDK4sbiFfvsa3mxu9Tz6cSySA+rLyp5brTN1f63wej2PB8Oxntbus4I7HFeZGuq0LG0nLowf7dkUHEm5/yHTHPnPsBscp2zxFxzdgApHsi49zepkUzfWjvcEktKP7gcAktQxZ9BzTjVlc0wgKTjOaPe54WtWJ5pyOC6T9HSANZYTEOhyp5m6MYW9FgOP+AZoXJcDIxlqj76pJMs9R/z6ftXD/O3j/RxTOqU9QuXJiIbsc0yxrDkuF/W8wvKGnAl9FciTCRpyimXN8WfxjVd9IJ/QkGFIpqwFJFhO5vhnXifPRXL/+2aswJG0phNYDp7IxTH85JPE5Z0Mev8zP6Wtd3iWw6Lh2Tj6psQE7HiST5Q2xVhnJHFNx7Gs6oa7OTwfR9/UKWVOfnBD22KYTKWuzVmWSznrI2AcbVNVeTilHs95V7QtpkaiSl6bGyxHBfWcHEdTspILOUG3qxtBcUxk6WusswXus3I0KE8uHPVr1zVjdepj18p5FRXU83NkiJzWUEMstFVvsUXeHRIV1JPHOckciYjdJzXUEEt+9O4ZP6C4WJjfj7yeMHU8lvqj0x/UBv9oD8nvx4yYb6ustv0ochWZWEc71o/t/nwWn+ef4jH/ngDiM/eRz90Xs350qi/LJZGpAjJH+rEAqdDRid/+CUj9lHWGo7OnT51RQCZ07SP9CADcdq1M/d2kgRjHUo4Vh24vy6tMF7j/+xxpR5tW5P7pehExjlzVQ9c/MKXdl1MD5GSOz0AcxQgVFw1uJiniInKamlRfh+JYwol8HOqERJM5IpC6HJh2rSpy0n94TDOTJwF4KAm3xHrpwWpOu0/n+B4JCn54OPq1osUt7cafI5pZGy5bEZE3hvVz6VJnMT3wZDpHhD4vpvCmS6Rcv0Ve++5f20Veu/jUvwfc+e+IHMdFuJP+RTd0g43vyeTcMQ+94hMtE6ZNZDwIpnaH/Ac/2Hgkj/HjDDTH+5gpbSKhFFwyDu6YbW7fPYLlqHsGAEd/o0eQFx2SoBx7UxAcF2GTzMRxF+eoTP0VjjZJWD8qU3+Ho0USmiNaiKvV3U0MPz8/q08aHUgCcby3MtyLzo/WU4NKfDu1UEYznB1nBgMwHF+WxjnmeL9mcoDYTmTbY+Amrx85BlzxaS7Hm8krHwah/fDlMjxQdiSZ4RBAJ3n9iIyz5hxcl+O0dwaO3+qNt3NvpDPVLFNhJ68fubVoxQ7Kozk+LHPMcpgjKy2Oh3JN3XCX49syx3uHY3SmMleVNB1j8rpA5aqN017MufYv2oeOcT1HTJ/29wJ79RC4xvk4Iqc/roGfO273Mzi/N+qF4eh92h0Ix0xzq+gYwEbpblrYlOPDkYro+f2nLYjumySOB84rZ2FpS45Hq6aUtriznygSOJYV8ZbONuV4JJoXSptQYJrnWNU1qvlfaKvfJ3BU5ZhjMt3skFCkpqCq7SYcn05xo9Tt28avGawwUy9camf+Du0NOLKEEUmIRsraTVTXnr6sShXJ8QuPwXNk6POEiCNCTVdQ2nlPa5ITxe3FSFHW4vMXJjfw40erbUwKpxOS6F2gg5r4PHGghhJ6WT/XsQQmaI4lQa/6wt5Wf5gZBRT4T+Q1Tmqr/JelY89xpF3K4RzzqMXsrb+s1rN8EsyHRRaa+0NCrH1CQ4ud4Uib9X4kRItpJqutJWkaRSjey2jqBJvB1BzHlxz9Ua8o6unqepI4fsGo3+rhPGE8OcMR02Z9WzV5YzzNbCXJO/15kYFAcGu/NjXXH3GxVmSSx9QHKW3lJlS92h07cyqYm/aehI6remOIcyjtyrua9Cf+TnmzMjXJUe1dX83xJpo31nnyRX+mfyRzFHKle4pjQXP48Ze+HP/cvVWe1HsGIqvbMYjmqvUcn+Nnnrbq5g3X8vpPTVN/mefHsx+dd/L0x6vpb3yNJy8nWscUHI7P2OjneTiavPEceS0kmb6H0fTyxIVxp62qQYRSs7Jw3OdUMB2YUX6akOn48U1qKGpFIgtHM/ejS2g1OolmxIvB9/f3g4Y6O8XkyLQxitsfd7R9UrdM5OB4MU5vsfmV4UAuOopXGCcdD+zljsdKlSjOwjEqU6zHeCds13RJF+hwlDVO+jInGTj+Kk4S4xLQf3mYdrRLypEOR4LMzSc5/Ah3gpq8NNy2TTesoqZzHJFjDLCPdCbp275PFuaf9oX7RMwjfE9HG9p1NGkYYNatRBSzI1qbI67+76Ht2mUsRV3XfUbTanCHadoujg3W5hbBzV3krJSnDHJS1/XhcHgU+BD4JXCpcNvjS+Hs7CtxrDS/xroBR5LxLoYJrOa4Urog/R5mUHA6Q3JZLixXrpoykYzX7fVIwc/ckGKRAEFzJ5kugdVcFinPdrT4JO66qYD2sHwr2S8Um1Okoi6lfJ/5qN84Lg+Hjw8RwmQsOwx4TDH9hRYXrqdRlfXYn0GL5KhzpU7FfcoZ0HGwunK0e8DYWnK2wtQdOnULjzzNyrk7C67ckQrcjjB4FMlXlKYcRSCiqRts4DxJKve+heNMvaBUUSVi2V/vhfMk8Y9pP4Zkh1bU8wqGN3CeXGHqEiO8P91yKFuBkQwEsWRTe8Exx77B4y1vZ+oaI3p6h4xa3qAwoDGVRrIVHNPWHXJb3szUOxZtNVEAzGt5O1M3gqNe6N/Y8namWsmxGCvRQFk+sWTFKaa4d2O8XOoXbTVNHFthmVdwZZ89U/6WSbTDqj8ClPV0LZOSw9XSd0wxVePAwqWUtpBUu7KmSN+yrN4d3nsIYiqsqPIq1TvFMbb/IJdlrpQ6yKw5pGTCSOX2xw8lhyClA+d35ADRUIHrzBvIzYSeLvCqJGzUa7MwxYTZVD2e/ChFd6j9ejy3vdKMlDg/tRFxJXgt94aDNlTLFA8Sx4NassBIK+wrZJ1plPWp1ZyORkUqv6Giey1PIr10SgH6jCw5tE1nZPwQ1kJnFPfLT8hosUnbno6CrN3NtilwT5gw5XeJHR78qLiKx4q5chy18uQmiJXt3+t1/X4sp106scn7RHDZdsgW500wWXukJF6nODO0+tzRL4TmnX/IIocVn6rHkxWEKVOeH9thKVjH1Z7myTJkBAel/G5xXIBUX8vKP6fRute5QGZTSpFzAiKPhx8vArK9Mud2kMHUDtsc+2V9jUxrsqonjl8sJEkiCw4Gpq7NYrrasIBMyOmJZhm4lge/Hg8YySpq6hU7MOOcfoNGpjQpEr8bbADFZX8czhj6jQOO1jYTQTLLyJX780VAksGI/3voiLgPNUN+HDplk0MV2HKZwI3dl824p68YxzlDItGvrK4OEcNGat1TYaJLMXRBNUfWuxrNI7fi2mMTkjemTdo8EbZ2e5muibs1uwQmAU7yuTN3Hzp7/YZ5B7a8K5MIwLwP2JP8dSRStKMfJcdi9G9hRnZiQhkp2bYWoCTPqel/6tEOXrM4GpJDM+6yz7YASe476/IVl9aNOYNf7aArfnefubfe+CSDKdFJIJ/+PcEYW54cxjl2QhlBrzNHH49kHd4sdzSer+OloLQntZ7j5A6TQLDeMtrerK6LZcPT7sWob9XHXd202OwU1k3Vaa7FMCbHVoO1euTgzd3bczbVYiRZqlrhJwfww/PbLubB8dp1c0V+HyzMT+7PuGgeXt/O3z/WR41BXBINlZ0ghlQf7+dvrw9Nwl0YhfoO/g+a7usGnOeAsgAAAABJRU5ErkJggg==" width="128" height="128">
+<p>Un sitio web sea accesible y adaptable en todos los devices</p>
+            </div>
+<div>
+<h2>Estandares CSS</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP9fjy_-G9ClqWifK7Rfm-go1LdgnqhGulmrLuD4GIhPim_IH8U9UR9nhia8RuIoISZyk&usqp=CAU" width="128" height="128">
+<p>Lenguaje formal usado para definir la presentación de un documento estructurado</p>
+            </div>
+            <div>
+                <h2>Design</h2>
+                <img
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbG090w2loF5ABt49ZhIb8_p_Y_qb30F-OC2RtfCjAmjLF_N8QAb0lMWFc97v02x23D8&usqp=CAU" width="128" height="128">
+<p>Diseño página de un sitio web o una aplicación que responde al entorno en el que se visualiza</p>
+</div>
+        </div>
+</div>
+</body>
+</html>
