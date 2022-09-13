@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencia5</title>
+</head>
+<body>
+    <script>
+        // A) Creacion de Arrays
+        let numeros = [1,2,3,4,5,6,7,8,9];
+        numeros [0]
+        console.log
+        let abecedario = ["a","b","c","d","e","f","g","h","j","k","l"]
+        abecedario [4]
+        var objetos = ["a",1,6,"r",7,"Hola"]
+        objetos [5]
+
+        // B)Manipulacion de Arrays
+
+        function imprimir(item) {
+	        console.log(item);
+	    }
+	
+	    abecedario.forEach(function (abecedario){
+	        imprimir(abecedario);
+	    })
+
+
+        //C) Uso de Iteradores de Arrays
+        function iterador() {
+            let count = 0;
+
+            return{
+                next: function(){
+                    if (count < array.length)
+                        return {value: array[count++], done: false}
+                    else
+                        return {value: undefined, done: true}
+                }
+            }
+        }
+
+        let refIterador = iterador(numeros)
+        console.log(refIterador.next())
+        console.log(refIterador.next())
+        console.log(refIterador.next())
+
+
+    </script>
+    
+</body>
+</html>
