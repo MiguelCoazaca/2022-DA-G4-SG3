@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+header span-0px {
+  font-size: 0px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Barlow;
+}
+
+.contacto {
+  background-color: antiquewhite;
+  width: 400px;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  box-shadow: 5px 10px 35px darkgoldenrod;
+}
+
+header span {
+  font-size: 95px;
+  text-align: center;
+}
+
+.contact {
+  overflow: hidden;
+}
+
+.contact label, .contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.contact label {
+  font-weight: 700;
+}
+
+.contact input:not([type=submit]), .contact textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: gray;
+}
+
+.contact textarea {
+  min-height: 100px;
+}
+
+input[type=submit] {
+  padding: 10px;
+  background: darkcyan;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=controleiteradores.css.map */
