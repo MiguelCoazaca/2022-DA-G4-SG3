@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+$fuente: Patrick Hand ;
+@mixin contenedor ($width, $padding) {
+    width: $width;
+    padding: $padding;
+}
+
+@mixin altura ($altura) {
+    height: $altura;
+}
+
+@function tamanio($size) {
+    @return $size;
+}
+
+@function margen($margen){
+    @return $margen;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(100deg, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.registro{
+    @include contenedor(400px,70px);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family:$fuente;
+    color: black;
+    box-shadow: 5px 10 px 30 px black;
+    font-size:tamanio(35px) ;
+    background-color: #FBFCFC;
+}
+
+.registro h3{
+    font-size: tamanio(40px);
+    margin-bottom: margen(20px);
+    text-align: center
+}
+
+.registro p{
+    @include altura(40px);
+    text-align: center;
+    font-size: tamanio(20px);
+    line-height: 30px;
+}
+
+.a{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.boton{
+    @include contenedor(100%,12px );
+    border: none;
+    color: black;
+    margin: 16px;
+    font-size: tamanio(18px);
+}
+
+.cuadro{
+    @include contenedor(100%,12px );
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    font-size: tamanio(18px);
+    color: white;
+}
