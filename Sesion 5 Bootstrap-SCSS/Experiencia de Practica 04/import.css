@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: green;
+}
+
+#container {
+  width: 680px;
+  border: 3px goldenrod;
+}
+
+#background {
+  background: linear-gradient(white, skyblue);
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: green;
+  border: 3px orange double;
+}

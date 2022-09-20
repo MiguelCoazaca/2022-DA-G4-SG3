@@ -1,0 +1,21 @@
+$MainBackground: linear-gradient( green,lightgreen);
+$MainFont: Arial, sans-serif;
+$MainColor: red;
+$MainFontSize: 18px;
+$MainWidth: 680px;
+$MainBorder: 3px red;
+
+body {
+  font-family: $MainFont;
+  font-size: $MainFontSize;
+  color: $MainColor;
+}
+
+#container {
+  width: $MainWidth;
+  border: $MainBorder;
+}
+
+#background {
+  background: $MainBackground;
+}

@@ -1,0 +1,17 @@
+.button-base, .button-retroceder, .button-avanzar {
+  border: rgb(236, 236, 191), 20px;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 11px;
+  cursor: all-scroll;
+}
+
+.button-advance {
+  background-color: cyan;
+  background-position-x: center;
+}
+
+.button-back {
+  background-color: gold;
+  color: purple;
+}/*# sourceMappingURL=extends.css.map */
