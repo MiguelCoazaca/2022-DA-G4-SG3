@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+$fuente:Bungee Spice ;
+$font: Pacifico;
+$image: 'https://i.pinimg.com/564x/2c/4e/09/2c4e093db2815f16e11fd918b090dd3a.jpg';
+body{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    font-family: $fuente, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+    font-size: 13*2#{px};
+   
+}
+p{
+    font-family: $font;
+    text-align: center;
+    font-size:2*35#{px} ;
+    color:#5DADE2;
+    text-shadow: 2+1#{px} 2+2#{px}      black;   
+}
+img{
+    display: inline-block;
+    margin:800;
+    padding: 80px;
+    height: 50*2#{em};
+}
+#contenido{
+    text-align: center;
+}
