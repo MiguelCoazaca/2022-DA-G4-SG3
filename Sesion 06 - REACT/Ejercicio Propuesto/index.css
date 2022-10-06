@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
 body {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(to top, #8BC6EC 100%, #9599E2 100%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +14,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h2{
+  font-family: 'Gemunu Libre', sans-serif;
+  color: crimson;
+  text-align: center;
 }
