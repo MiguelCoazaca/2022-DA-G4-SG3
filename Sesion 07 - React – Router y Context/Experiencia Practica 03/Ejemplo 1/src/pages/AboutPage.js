@@ -1,0 +1,9 @@
+export default function AboutPage() {
+    return <div> Ingeniería de Sistemas es una profesión donde los ingenieros usan sus conocimientos, habilidades y destrezas en hacer uso de recursos de diversos tipos para gestionar y producir información que les permiten a las personas e instituciones tomar decisiones en los procesos diarios que tienen que enfrentar, pudiendo ahorrar tiempo, esfuerzo y dinero.
+
+    A partir de la capacidad de disponer información para tomar decisiones se logra ventaja competitiva, nos permite adaptarnos a las nuevas características del medio en que nos desarrollamos porque logramos un uso eficiente de recursos.
+    
+    La transformación digital es la integración de tecnología digital en todas las áreas de una empresa, y el futuro Ingeniero de Sistemas no es ajeno a ello, ya que va a formar parte del cambio fundamentalmente en la forma en que opera una empresa y brinda valor a los clientes.
+    
+    ¡Conéctate al mundo de la tecnología ahora, y experimenta la revolución de la información y el poder de usarla! </div>    
+}
