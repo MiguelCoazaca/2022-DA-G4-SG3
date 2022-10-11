@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+body {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2{
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: left;
+}
+
+
+.texto{
+  text-align: center;
+}
+
+
+h3{
+  text-align: center;
+}
+
+
+p{
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.check{
+  text-align: center;
+}
+.margen{
+  margin-right: 100px;
+}
