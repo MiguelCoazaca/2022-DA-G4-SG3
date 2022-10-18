@@ -1,0 +1,5 @@
+Hola Mundo
+Ing. de sistemas
+Miguel
+12334
+la lista es: =['12', 'asdas', 'asd']
