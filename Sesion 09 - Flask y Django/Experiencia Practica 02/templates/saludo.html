@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Bienvenido</title>
+</head>
+    <body>
+        <h1>COMENCEMOS....</h1>
+         {% if nombre %}
+           <h1>Hola {{nombre|title}}</h1>
+           <p>Tienes clases de {{curso}}</p>
+         {%else%}
+           <p>Error</p>
+         {% endif %}
+    </body>
+</html>
