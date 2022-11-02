@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block titulo %} Lista Pasajeros {% endblock %}
+{% block contenido %}
+<div class="card">
+    <div class="card-header">
+        <a name="" id="" class="btn btn-primary" href="{% url 'crear' %}" role="button">Agregar Pasajero</a>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Pasajeros</h4>
+        <div class="table-responsive">
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Dia </th>
+                        <th scope="col">Mes </th>
+                        <th scope="col">Año </th>
+                        <th scope="col">Numero de Asiento</th>
+                        <th scope="col">Imagen</th>
+                        
+
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for pasajero in pasajero %}
+                    <tr class="">
+                        <td>{{pasajero.id}}</td>
+                        <td>{{pasajero.nombre}}</td>
+                        <td>{{pasajero.apellido}}</td>
+                        <td>{{pasajero.dia}}</td>
+                        <td>{{pasajero.mes}}</td>
+                        <td>{{pasajero.anio}}</td>
+                        <td>{{pasajero.num_asiento}}</td>
+                        <td>
+                            <img src="{{pasajero.imagen.url}}" height="150px" weight=" 150px"/>
+                      
+                        </td>
+                    
+                        <td><a name="" id="" class="btn btn-info" href="{% url 'editar' pasajero.id %}" role="button">Editar</a> 
+                            | 
+                            <a name="" id="" class="btn btn-danger" href="{% url 'eliminar' pasajero.id %}" role="button">Borrar</a>
+                        </td>
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <div class="card-footer text-muted">
+    </div>
+</div>
+{% endblock %}
